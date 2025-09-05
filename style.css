@@ -1,0 +1,22 @@
+@import url("https://geistfont.vercel.app/geist.css");
+:root { color-scheme: dark; }
+/* hello css*/
+html,body { height: 100%; }
+body {
+  margin:0;
+  font-family: "Geist Sans", ui-sans-serif, "Segoe UI", Roboto;
+  background: #000;
+  color: #e6e6e7;
+  display: flex;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+h1, h3 { line-height: 1.1 }
+h1 { font-weight: 700}
+h3 { opacity: 0.9; }
+
+img {
+  display: block;
+  border-radius: 1rem;
+}
